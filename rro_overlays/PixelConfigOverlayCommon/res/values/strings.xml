@@ -30,7 +30,7 @@
     <string name="config_defaultProfcollectReportUploaderApp">com.google.android.apps.internal.betterbug</string>
     <string name="config_defaultRetailDemo">com.google.android.retaildemo:6547c73dee150c103980bfdffe55cc9a011d785dd694a5f99afd8205bcaf1f80</string>
     <string name="config_defaultSearchUiService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSearchUiService</string>
-    <string name="config_defaultSmartspaceService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiSmartspaceService</string>
+    <string name="config_defaultSmartspaceService">com.kieronquinn.app.smartspacer/.service.SmartspacerSmartspaceService</string>
     <string name="config_defaultSupervisionProfileOwnerComponent">com.google.android.gms/.kids.account.receiver.ProfileOwnerReceiver</string>
     <string name="config_defaultSystemCaptionsManagerService">com.google.android.as/com.google.android.apps.miphone.aiai.captions.SystemCaptionsManagerService</string>
     <string name="config_defaultTextClassifierPackage">com.google.android.as</string>
