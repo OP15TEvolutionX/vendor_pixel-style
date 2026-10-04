@@ -26,4 +26,8 @@
     <dimen name="taskbar_size">@*android:dimen/taskbar_frame_height</dimen>
     <!-- Default height of taskbar for Launcher.   -->
     <dimen name="taskbar_stashed_size">@*android:dimen/taskbar_stashed_size</dimen>
+    <!-- At a Glance: use moderately enlarged text and weather icons. -->
+    <dimen name="enhanced_smartspace_text_size_title">20sp</dimen>
+    <dimen name="enhanced_smartspace_text_size_small">16sp</dimen>
+    <dimen name="enhanced_smartspace_icon_size">22dp</dimen>
 </resources>
