@@ -1,0 +1,11 @@
+runtime_resource_overlay {
+    name: "PixelLauncherBottomPadding24",
+    certificate: "platform",
+    aaptflags: [
+        "--package-id", "0x7e",
+        "--allow-reserved-package-id",
+        "-I", "vendor/gms/system_ext/packages/privileged_apps/NexusLauncherRelease/NexusLauncherRelease.apk",
+    ],
+    sdk_version: "current",
+    product_specific: true,
+}

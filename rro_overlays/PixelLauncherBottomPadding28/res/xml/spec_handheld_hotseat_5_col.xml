@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<hotseatSpecs xmlns:launcher="http://schemas.android.com/apk/prv/res/com.google.android.apps.nexuslauncher">
+  <specs launcher:maxAspectRatio="@*com.google.android.apps.nexuslauncher:dimen/aspect_ratio_portrait">
+    <hotseatSpec launcher:dimensionType="0" launcher:maxAvailableSize="9999.000000dp">
+      <hotseatQsbSpace launcher:fixedSize="24.000000dp" />
+      <edgePadding launcher:fixedSize="28dp" />
+    </hotseatSpec>
+  </specs>
+  <specs launcher:maxAspectRatio="@*com.google.android.apps.nexuslauncher:dimen/aspect_ratio_landscape">
+    <hotseatSpec launcher:dimensionType="1" launcher:maxAvailableSize="9999.000000dp">
+      <hotseatQsbSpace launcher:fixedSize="0.000000dp" />
+      <edgePadding launcher:fixedSize="0.000000dp" />
+    </hotseatSpec>
+  </specs>
+</hotseatSpecs>

@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.apps.nexuslauncher.overlay.padding36">
+    <overlay android:isStatic="false"
+        android:category="com.google.android.apps.nexuslauncher.bottom_padding"
+        android:targetPackage="com.google.android.apps.nexuslauncher" />
+    <application android:hasCode="false" android:label="Pixel Launcher bottom padding 36 dp" />
+</manifest>

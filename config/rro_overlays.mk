@@ -46,6 +46,10 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     PixelLauncherNoGestureHintOverlay \
     PixelLauncherOverlayCustom \
+    PixelLauncherBottomPadding24 \
+    PixelLauncherBottomPadding28 \
+    PixelLauncherBottomPadding36 \
+    PixelLauncherBottomPadding48 \
     PixelSettingsProvider \
     PixelSetupWizardOverlayExpressive \
     PixelTeleService \
