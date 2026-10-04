@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Keep the content scale measured on fairlady's 5x6 grid (279 / 332 px).
+     Launcher supplies the outer height from the grid, so size and scale the pager independently. -->
+<com.google.android.systemui.smartspace.BcSmartspaceView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:launcher="http://schemas.android.com/apk/prv/res/com.google.android.apps.nexuslauncher"
+    android:id="@*com.google.android.apps.nexuslauncher:id/bc_smartspace_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="87.52941dp"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@*com.google.android.apps.nexuslauncher:id/smartspace_card_pager"
+            android:layout_width="0dp"
+            android:layout_height="104dp"
+            android:scaleX="0.84036145"
+            android:scaleY="0.84036145"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp"
+            android:contentDescription="@*com.google.android.apps.nexuslauncher:string/smartspace_content_desc"
+            launcher:layout_constraintWidth_default="percent"
+            launcher:layout_constraintWidth_percent="1.18996416"
+            launcher:layout_constraintStart_toStartOf="parent"
+            launcher:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.systemui.smartspace.PagerDots
+            android:id="@*com.google.android.apps.nexuslauncher:id/smartspace_page_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@*com.google.android.apps.nexuslauncher:dimen/page_indicator_padding_top"
+            android:importantForAccessibility="no"
+            android:visibility="visible"
+            launcher:layout_constraintStart_toStartOf="parent"
+            launcher:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.systemui.smartspace.BcSmartspaceView>
