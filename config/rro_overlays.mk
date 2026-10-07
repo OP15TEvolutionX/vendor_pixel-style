@@ -46,10 +46,8 @@ PRODUCT_PACKAGES += \
     PixelDocumentsUIGoogleOverlay \
     PixelLauncherNoGestureHintOverlay \
     PixelLauncherOverlayCustom \
-    PixelSettingsGoogle \
     PixelSettingsProvider \
     PixelSetupWizardOverlayExpressive \
-    PixelSystemUIGoogle \
     PixelTeleService \
     PixelTelecom \
     Pixelframework-res \

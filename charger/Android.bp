@@ -35,6 +35,22 @@ prebuilt_etc {
     proprietary: true,
 }
 
+prebuilt_etc { 
+    name: "pixel_charger_res_images_charger_battery_overheat",
+    filename: "battery_overheat.png",
+    src: "images/charger/battery_overheat.png",
+    relative_install_path: "res/images/charger",
+    product_specific: true,
+}
+
+prebuilt_etc {
+    name: "pixel_charger_res_images_charger_battery_overheat_vendor",
+    filename: "battery_overheat.png",
+    src: "images/charger/battery_overheat.png",
+    relative_install_path: "res/images/charger",
+    proprietary: true,
+}
+
 prebuilt_etc {
     name: "pixel_charger_res_images_charger_main_font",
     filename: "main_font.png",
@@ -56,6 +72,7 @@ prebuilt_etc {
     filename: "animation.txt",
     required: [
         "pixel_charger_res_images_charger_battery_fail",
+        "pixel_charger_res_images_charger_battery_overheat",
         "pixel_charger_res_images_charger_battery_scale",
         "pixel_charger_res_images_charger_main_font",
     ],
@@ -69,6 +86,7 @@ prebuilt_etc {
     filename: "animation.txt",
     required: [
         "pixel_charger_res_images_charger_battery_fail_vendor",
+        "pixel_charger_res_images_charger_battery_overheat_vendor",
         "pixel_charger_res_images_charger_battery_scale_vendor",
         "pixel_charger_res_images_charger_main_font_vendor",
     ],
